@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-<form action="user.jsp">
+<form action="/user/insert">
     <table>
         <tr>
             <th>
@@ -50,8 +50,8 @@
                 <i class="bi bi-gender-ambiguous"></i>
             </th>
             <td>
-                <input type="radio" name="gender" value="male">남자
-                <input type="radio" name="gender" value="female">여자
+                <input type="radio" name="gender" value="0">남자
+                <input type="radio" name="gender" value="1">여자
             </td>
         </tr>
         <tr>

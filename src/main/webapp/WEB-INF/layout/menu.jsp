@@ -110,7 +110,7 @@
         <a href="${root}/">Home</a>
     </li>
     <li>
-        <a href="${root}/user/user">회원가입</a>
+        <a href="${root}/user/userinsert">회원가입</a>
     </li>
     <li>
         <a href="${root}/member/list">회원목록</a>
