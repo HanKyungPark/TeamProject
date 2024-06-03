@@ -14,4 +14,9 @@ public class GameService {
     public void insertGame(GameDto dto) {
         gameMapperInter.insertgame(dto);
     }
+
+//    public void insertphoto(GameDto dto) {
+//        gameMapperInter.insertPhoto(dto);
+//
+//    }
 }

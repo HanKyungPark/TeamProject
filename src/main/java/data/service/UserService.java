@@ -18,4 +18,9 @@ public class UserService {
 
     }
 
+    public boolean isLoginCheck(String id, String passwd) {
+        return uInter.checkLogin(id, passwd) == 1 ? true : false;
+    }
+
+    ;
 }
