@@ -48,6 +48,7 @@
             background-color: rgb(233,233,233);
         }
     </style>
+
     <script>
         $(function (){
             $("#showimg1").click(function (){
@@ -88,6 +89,7 @@
             })
         })
     </script>
+
 </head>
 <body>
 <form action="/gameforminsert" method="post" enctype="multipart/form-data">
@@ -109,12 +111,15 @@
             </th>
             <td style="text-align: center">
                 <input type="file" name="photo1" id="photo1" hidden="hidden">
+<%--               <--% 여기 밑에 src에 noimage 넣기--%>
                 <label><img src="" id="showimg1" style="width: auto; height:250px"><br>
                 <input type="text" name="name1" style="font-size: 25px"></label>
             </td>
             <td style="text-align: center">
                 <input type="file" name="photo2" id="photo2" hidden="hidden">
-                <label><img src="" id="showimg2" style="width: 250px; height:250px"><br>
+<%--
+<%--                <--% 여기 밑에 src에 noimage 넣기&--%>
+                <label><img src="" id="showimg2" style="width: 250px; height:250px" ><br>
                     <input type="text" name="name2" style="font-size: 25px"></label>
             </td>
         </tr>
