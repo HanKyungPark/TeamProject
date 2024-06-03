@@ -9,4 +9,8 @@ public interface GameMapperInter {
 
     @Insert("insert into upload (id,photo1,name1,photo2,name2,subject) values( #{id},#{photo1},#{name1},#{photo2},#{name2},#{subject})")
     public void insertgame(GameDto dto);
+/*
+    @Insert("insert into upload (photo1,photo2) values (#{photo1},#{photo2})")
+    public void insertPhoto(GameDto dto);*/
+
 }

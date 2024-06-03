@@ -124,13 +124,11 @@
         </tr>
         <tr>
             <td colspan="2">
-                <button type="submit">회원가입</button>
+                <input type="submit" value="가입하기" class="btn" onclick="alert('가입 성공!')">
                 <button type="button" onclick="history.back()">이전</button>
 
             </td>
-        </tr>
-        <tr><td><input type="submit" value="가입하기" class="btn" onclick="alert('가입 성공!')">
-        </td></tr>
+
     </table>
 </form>
 

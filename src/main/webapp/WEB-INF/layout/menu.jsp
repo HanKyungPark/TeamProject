@@ -67,7 +67,7 @@
                 e.preventDefault();
                 //폼안의 입력값 읽기
                 let fdata = $(this).serialize();
-                //alert(fdata);
+               /* alert(fdata);*/
                 $.ajax({
                     type:"get",
                     dataType:"json",
@@ -88,6 +88,7 @@
 
             //로그아웃 버튼
             $("#btnlogout").click(function () {
+                alert("logout");
                 $.ajax({
                     type:"get",
                     dataType: "text",
@@ -119,6 +120,9 @@
     <li>
         <a href="${root}/board/list">이용방법</a>
     </li>
+    <li>
+        <a href="${root}/game/gameinsert">게임만들기</a>
+    </li>
 
 </ul>
 </div>
@@ -146,7 +150,7 @@
                         <tr>
                             <th class="table-success" width="80">아이디</th>
                             <td>
-                                <input type="text" name="myid" class="form-control"
+                                <input type="text" name="id" class="form-control"
                                        required="required"
                                 value="${sessionScope.saveid!=null and sessionScope.saveid=='yes'?
                                 sessionScope.loginid:''}">
@@ -155,7 +159,7 @@
                         <tr>
                             <th class="table-success" width="80">비밀번호</th>
                             <td>
-                                <input type="password" name="pass" class="form-control"
+                                <input type="password" name="passwd" class="form-control"
                                        required="required">
                             </td>
                         </tr>
