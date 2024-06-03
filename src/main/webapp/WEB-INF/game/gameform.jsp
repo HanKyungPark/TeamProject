@@ -17,38 +17,110 @@
         body * {
             font-family: 'Jua';
         }
+        .smbtn{
+            width: 262px;
+            height: 32px;
+            font-size: 15px;
+            border: 0px;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 10px;
+            background-color: rgb(61,135,255);
+        }
+        .smbtn:active{
+            width: 262px;
+            height: 32px;
+            font-size: 15px;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 10px;
+            background-color: rgb(61,135,255);
+        }
+        table {
+            width : 100%;
+            height: auto;
+            margin: auto;
+        }
+        input {
+            border:0px;
+            border-radius: 15px;
+            outline: none;
+            background-color: rgb(233,233,233);
+        }
     </style>
+    <script>
+        $(function (){
+            $("#showimg1").click(function (){
+                $("#photo1").trigger('click')
+            })
+            $("#showimg2").click(function (){
+                $("#photo2").trigger('click')
+            })
+            $("#photo1").change(function(){
+                let reg=/(.*?)\/(jpg|jpeg|png|gif)$/;
+                let f=$(this)[0].files[0]
+                if(!f.type.match(reg)){
+                    alert("이미지파일만 가능합니다")
+                    return;
+                }
+                if(f){
+                    let reader=new FileReader();
+                    reader.onload=function(e){
+                        $("#showimg1").attr("src",e.target.result);
+                    }
+                    reader.readAsDataURL($(this)[0].files[0]);
+                }
+            })
+            $("#photo2").change(function(){
+                let reg=/(.*?)\/(jpg|jpeg|png|gif)$/;
+                let f=$(this)[0].files[0]
+                if(!f.type.match(reg)){
+                    alert("이미지파일만 가능합니다")
+                    return;
+                }
+                if(f){
+                    let reader=new FileReader();
+                    reader.onload=function(e){
+                        $("#showimg2").attr("src",e.target.result);
+                    }
+                    reader.readAsDataURL($(this)[0].files[0]);
+                }
+            })
+        })
+    </script>
 </head>
 <body>
 <form action="/gameforminsert" method="post" enctype="multipart/form-data">
     <input type="hidden" value="${loginid}" name="id">
 
-    ${loginid}
-    <table>
+    <table class="table">
+        <caption align="top" style="text-align: center ;margin-top: 70px"><h2>게임 만들기</h2></caption>
         <tr>
-            <th>
+            <th style="width: 100px; align-content: center; text-align: center ">
                 제목
             </th>
-            <td colspan="2">
-                <input type="text" name="subject">
+            <td colspan="2" style="text-align: center">
+                <input type="text" name="subject" style="width: auto; height: 100%; font-size: 30px;" >
             </td>
         </tr>
-        <tr>
-            <th>
+        <tr style="height: 300px;">
+            <th style="align-content: center; text-align: center">
                 사진
             </th>
-            <td>
-                <input type="file" name="photo1"><br>
-                <input type="text" name="name1">
+            <td style="text-align: center">
+                <input type="file" name="photo1" id="photo1" hidden="hidden">
+                <label><img src="" id="showimg1" style="width: auto; height:250px"><br>
+                <input type="text" name="name1" style="font-size: 25px"></label>
             </td>
-            <td>
-                <input type="file" name="photo2"><br>
-                <input type="text" name="name2">
+            <td style="text-align: center">
+                <input type="file" name="photo2" id="photo2" hidden="hidden">
+                <label><img src="" id="showimg2" style="width: 250px; height:250px"><br>
+                    <input type="text" name="name2" style="font-size: 25px"></label>
             </td>
         </tr>
             <tr>
-               <td colspan="3">
-                   <button type="submit">제출하기</button>
+               <td colspan="3" style="text-align: center">
+                   <button type="submit" class="smbtn">제출하기</button>
                </td>
             </tr>
     </table>
