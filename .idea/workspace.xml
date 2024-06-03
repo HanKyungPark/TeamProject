@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="773a1ede-d975-4acd-9b1e-a9e019a72faa" name="Changes" comment="0603_19:00">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local_history.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/TotalCountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/login/UserLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/save/game2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/save/game4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/usage/use.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/teamproject/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/teamproject/TeamProjectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/TotalCountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/login/UserLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/result/resultController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/user/UserFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/dto/GameDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/dto/ResultDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/UserMapperInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/service/GameService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/naver.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/naver/cloud/NaverConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/naver/cloud/NcpObjectStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/naver/cloud/ObjectStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/save/game2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/save/game4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tiles/config/TilesConfig.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HanKyungPark/TeamProject.git&quot;,
+    &quot;accountId&quot;: &quot;591084c4-a0fa-4f35-9ed3-b292404bc803&quot;
+  }
+}</component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TeamProjectApplication.executor": "Run",
+    "Maven.TeamProject [clean].executor": "Run",
+    "Maven.TeamProject [deploy].executor": "Run",
+    "Maven.TeamProject [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "Spring Boot.TeamProjectApplication.executor": "Run",
+    "git-widget-placeholder": "GaWon",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TeamProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="TeamProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.teamproject.TeamProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0603_19:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="0603_19:00" />
+  </component>
+</project>
