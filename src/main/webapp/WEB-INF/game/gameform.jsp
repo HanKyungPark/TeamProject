@@ -117,7 +117,7 @@
             </td>
             <td style="text-align: center">
                 <input type="file" name="photo2" id="photo2" hidden="hidden">
-<%--
+<%--               
 <%--                <--% 여기 밑에 src에 noimage 넣기&--%>
                 <label><img src="" id="showimg2" style="width: 250px; height:250px" ><br>
                     <input type="text" name="name2" style="font-size: 25px"></label>
