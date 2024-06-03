@@ -75,7 +75,7 @@
     </style>
 </head>
 <body>
-<form action="user.jsp">
+<form action="/user/insert">
     <table>
         <tr>
             <td><h2>회원가입</h2></td>
@@ -93,8 +93,40 @@
         <tr><td>성별</td></tr>
         <tr>
             <td>
-                <input type="radio" class="gender" name="gender" value="male">남자
-                <input type="radio" class="gender" name="gender" value="female">여자
+
+                <input type="radio" name="gender" value="0">남자
+                <input type="radio" name="gender" value="1">여자
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <i class="bi bi-house-door"></i>
+            </th>
+            <td>
+                <input type="text" name="addr" placeholder="주소">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <i class="bi bi-person-badge"></i>
+            </th>
+            <td>
+                <input type="text" name="hp" placeholder="휴대폰 번호">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <i class="bi bi-cake2"></i>
+            </th>
+            <td>
+                <input type="date" name="birthday" placeholder="생일" value="2024-01-01">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit">회원가입</button>
+                <button type="button" onclick="history.back()">이전</button>
+
             </td>
         </tr>
         <tr><td><input type="submit" value="가입하기" class="btn" onclick="alert('가입 성공!')">

@@ -16,4 +16,5 @@ public class UserDto {
     private String hp;
     private String addr;
     private String id;
+    private String name;
 }

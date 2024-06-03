@@ -13,6 +13,7 @@ public class UserService {
     private UserMapperInter uInter;
 
     public void insertUser(UserDto dto) {
+
         uInter.insertUser(dto);
 
     }
