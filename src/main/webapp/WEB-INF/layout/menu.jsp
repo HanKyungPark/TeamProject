@@ -149,7 +149,7 @@
         <li><a href="${root}/">홈</a></li>
         <li><a href="${root}/user/userinsert">회원가입</a></li>
         <li><a href="${root}/member/list">결과보기</a></li>
-        <li><a href="${root}/board/list">이용방법</a></li>
+        <li><a href="${root}/usage/use">이용방법</a></li>
     <li><a href="${root}/game/gameinsert">게임만들기</a></li>
 
   </ul>
