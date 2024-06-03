@@ -20,8 +20,10 @@
     </style>
 </head>
 <body>
-<form action="/gameinsert">
-    <input type="hidden" value="${id}" name="id">
+<form action="/gameforminsert" method="post" enctype="multipart/form-data">
+    <input type="hidden" value="${loginid}" name="id">
+
+    ${loginid}
     <table>
         <tr>
             <th>

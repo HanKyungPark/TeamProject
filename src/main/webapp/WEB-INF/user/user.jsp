@@ -124,8 +124,11 @@
             </td>
         </tr>
         <tr>
+
             <td><input type="submit" value="가입하기" class="btn" onclick="alert('가입 성공!')"></td>
+          <td><button type="button" onclick="history.back()">이전</button></td>
         </tr>
+
     </table>
     <div class="left-div">
         <img src="/save/game2.webp"/>
