@@ -3,6 +3,9 @@ package data.mapper;
 import data.dto.GameDto;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 @Mapper
 public interface GameMapperInter {
@@ -12,5 +15,12 @@ public interface GameMapperInter {
 /*
     @Insert("insert into upload (photo1,photo2) values (#{photo1},#{photo2})")
     public void insertPhoto(GameDto dto);*/
+    @Select("select count(*) from upload")
+    public int TotalCount();
+
+    @Select("select * from upload")
+    public List<GameDto> getAllgames();
+
+
 
 }

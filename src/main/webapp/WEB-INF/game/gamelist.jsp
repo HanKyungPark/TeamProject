@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-gamelist
+${totalcount}
 </body>
 </html>
