@@ -105,23 +105,23 @@
 </head>
 <body>
 <c:set var="root" value="<%=request.getContextPath()%>"/>
+<div style="margin-left: 450px">
 <ul class="menu">
     <li>
-        <a href="${root}/">Home</a>
+        <a href="${root}/">홈</a>
     </li>
     <li>
         <a href="${root}/user/userinsert">회원가입</a>
     </li>
     <li>
-        <a href="${root}/member/list">회원목록</a>
+        <a href="${root}/member/list">결과보기</a>
     </li>
     <li>
-        <a href="${root}/board/list">게시판</a>
+        <a href="${root}/board/list">이용방법</a>
     </li>
-    <li>
-        <a href="${root}/guest/list">방명록</a>
-    </li>
+
 </ul>
+</div>
 <!--로그인 모달 다이얼로그-->
 <div class="modal" id="myLoginModal">
     <div class="modal-dialog modal-sm">
