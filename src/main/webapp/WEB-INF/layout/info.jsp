@@ -36,11 +36,12 @@
 </head>
 <body>
 <pre class="info">
- <i class="bi bi-shop-window"></i>&nbsp;비트캠프
- <i class="bi bi-person-circle"></i>&nbsp;대표 : 박한경
-    <i class="bi bi-phone-file"></i>&nbsp;010-1234-1234
-    <i class="bi bi-cart4"></i>&nbsp;당일배송
-    <i class="bi bi-apple"></i>&nbsp;아이폰도 팔아요
+    <i class="bi bi-shop-window"></i>&nbsp;비트캠프 게임방
+    <i class="bi bi-person-circle"></i>&nbsp;대표:손가원,박한경
+    <i class="bi bi-telephone-inbound"></i>&nbsp;010-1234-1234
+    <i class="bi bi-controller"></i></i>&nbsp;누구나 참여 가능
+    <i class="bi bi-apple"></i>&nbsp;드루와잇!
 </pre>
+<img src="/save/game2.webp"/>
 </body>
 </html>

@@ -26,8 +26,6 @@
 </head>
 <body>
 <c:set var="root" value="<%=request.getContextPath()%>"/>
-<a href="${root}/">
-    <img src="${root}/mycar/mycar13.png" width="50">
-    스프링부트와JSP를 이용한 프로젝트</a>
+<a href="${root}/">bit701 밸런스 게임</a>
 </body>
 </html>
