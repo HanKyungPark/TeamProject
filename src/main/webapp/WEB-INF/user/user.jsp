@@ -69,6 +69,18 @@
             transform: translateY(-50%);
         }
 
+        .rollback {
+                width: 262px;
+                height: 32px;
+                font-size: 15px;
+                border: 0px;
+                border-radius: 15px;
+                outline: none;
+                padding-left: 10px;
+                background-color: rgb(164, 199, 255);
+            }
+
+
     </style>
 </head>
 <body>
@@ -124,9 +136,10 @@
             </td>
         </tr>
         <tr>
-
-            <td><input type="submit" value="가입하기" class="btn" onclick="alert('가입 성공!')"></td>
-          <td><button type="button" onclick="history.back()">이전</button></td>
+            <td><input type="submit" value="가입하기" class="btn"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="이전" class="rollback" onclick="history.back()"></td>
         </tr>
 
     </table>

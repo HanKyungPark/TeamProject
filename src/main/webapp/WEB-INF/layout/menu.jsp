@@ -143,7 +143,7 @@
 </head>
 <body>
 <c:set var="root" value="<%=request.getContextPath()%>"/>
-<div style="margin-left: 450px">
+<div style="margin-left: 20%">
 
     <ul class="menu">
         <li><a href="${root}/">홈</a></li>
