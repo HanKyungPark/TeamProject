@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d651007-26f4-40f0-a215-d74af4f7b47e" name="Changes" comment="0603_19:00">
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/save/game2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/save/game2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/save/game4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/save/game4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/GameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/save/game2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/save/game2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/save/game4.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/save/game4.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "GaWon"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TeamProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="TeamProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.teamproject.TeamProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0603_19:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="0603_19:00" />
+  </component>
+</project>
