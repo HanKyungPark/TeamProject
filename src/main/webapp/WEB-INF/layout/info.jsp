@@ -40,8 +40,8 @@
     <i class="bi bi-person-circle"></i>&nbsp;대표:손가원,박한경
     <i class="bi bi-telephone-inbound"></i>&nbsp;010-1234-1234
     <i class="bi bi-controller"></i></i>&nbsp;누구나 참여 가능
-    <i class="bi bi-apple"></i>&nbsp;드루와잇!
+    <i class="bi bi-emoji-kiss"></i></i>&nbsp;드루와잇!
 </pre>
-<img src="/save/game2.webp"/>
+
 </body>
 </html>
