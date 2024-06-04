@@ -1,12 +1,11 @@
-<%--
+    <%--
   Created by IntelliJ IDEA.
   User: hankyung
   Date: 5/23/24
   Time: 4:42 PM
   To change this template use File | Settings | File Templates.
---%>
+  --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <!DOCTYPE html>
@@ -24,76 +23,41 @@
         body * {
             font-family: 'Jua';
         }
-
         ul.menu {
-
             list-style: none;
-
             margin-left: 10%;
-
         }
-
-
-
         ul.menu li {
-
             float: left;
-
             width: 120px;
-
             font-size: 22px;
-
             border-top-left-radius: 8px;
-
             border-top-right-radius: 8px;
-
             text-align: center;
-
             margin-right: 10px;
-
         }
-
-
-
         ul.menu li:hover {
-
             box-shadow: 0px 2px 0px #3f63bf;
-
             background-color: rgba(0, 0, 0, 0.01);
-
         }
-
-
-
         ul.menu li:hover a {
-
             color: #3f63bf;
-
         }
-
-
-
         ul.menu li a:hover {
-
             text-decoration: none;
-
         }
-
         ul.menu li:hover::before {
             transform: translate(-50%, -50%) scale(1.1);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
         }
-
         ul.menu li:hover {
             transform: translateY(-10px);
         }
-
         div.loginarea {
             position: fixed;
             right: 50px;
             top: 100px;
         }
-
         div.loginarea button {
             width: 100px;
         }
@@ -124,7 +88,6 @@
                     },
                 });
             });
-
             //로그아웃 버튼
             $("#btnlogout").click(function () {
                 alert("logout");
@@ -142,19 +105,6 @@
     </script>
 </head>
 <body>
-<c:set var="root" value="<%=request.getContextPath()%>"/>
-<div style="margin-left: 20%">
-
-    <ul class="menu">
-        <li><a href="${root}/">홈</a></li>
-        <li><a href="${root}/user/userinsert">회원가입</a></li>
-        <li><a href="${root}/member/list">결과보기</a></li>
-        <li><a href="${root}/board/list">이용방법</a></li>
-    <li><a href="${root}/game/gameinsert">게임만들기</a></li>
-
-  </ul>
-
-</div>
 <!--로그인 모달 다이얼로그-->
 <div class="modal" id="myLoginModal">
     <div class="modal-dialog modal-sm">
@@ -196,6 +146,15 @@
             </form>
         </div>
     </div>
+</div>
+<c:set var="root" value="<%=request.getContextPath()%>"/>
+<div style="margin-left: 20%">
+    <ul class="menu">
+        <li><a href="${root}/">홈</a></li>
+        <li><a href="${root}/user/userinsert">회원가입</a></li>
+        <li><a href="${root}/board/list">이용방법</a></li>
+    <li><a href="${root}/game/gameinsert">게임만들기</a></li>
+  </ul>
 </div>
 <div class="loginarea">
     <c:if test="${sessionScope.loginok==null}">

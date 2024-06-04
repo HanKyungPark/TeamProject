@@ -5,40 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d651007-26f4-40f0-a215-d74af4f7b47e" name="Changes" comment="0603_19:00">
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/save/game2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/save/game2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/save/game4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/save/game4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout1.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/usage/use.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/GameService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/save/game2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/save/game2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/save/game4.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/save/game4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="SemiMain" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gawonson"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HanKyungPark/TeamProject.git",
+    "accountId": "591084c4-a0fa-4f35-9ed3-b292404bc803"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2hOPume2BWgCxZHJHSvEdgm3QaV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "GaWon"
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.TeamProjectApplication.executor": "Run",
+    "git-widget-placeholder": "GaWon",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -50,8 +96,45 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="0603_19:00">
+      <option name="closed" value="true" />
+      <created>1717431378259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717431378259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="0603_19:00">
+      <option name="closed" value="true" />
+      <created>1717431434609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717431434609</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d651007-26f4-40f0-a215-d74af4f7b47e" name="Changes" comment="0603_19:00" />
+      <created>1717462376288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717462376288</updated>
+      <workItem from="1717462377881" duration="801000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0603_19:00" />

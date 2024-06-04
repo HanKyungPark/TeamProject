@@ -29,5 +29,8 @@ public class GameService {
         return gameMapperInter.getAllgames();
     }
 
+    public List<GameDto> getgame(String subject){
+        return gameMapperInter.getgame(subject);
+    };
 
 }

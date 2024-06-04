@@ -32,14 +32,12 @@
             <img src="${stpath}/${ele.photo2}" style="width: 100px;height: 100px">
             </div>
 
-            <b style="height: 20px">ID:${ele.id}</b>
+            <b style="height: 20px">이름:${ele.id}</b>
 
         </td>
         <c:if test="${(a.count+1)%3==0}">
             </tr><tr>
         </c:if>
-
-
     </C:forEach>
     </tr>
 </table>
