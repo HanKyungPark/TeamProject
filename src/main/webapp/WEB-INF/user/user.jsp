@@ -20,7 +20,6 @@
 
         table {
             width: 280px;
-            height: 550px;
             margin: auto;
         }
 
@@ -118,28 +117,28 @@
             <td>휴대폰 번호</td>
         </tr>
         <tr>
-            <td><input type="text" class="input" name="hp" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="휴대폰 번호"></td>
+            <td><input type="text" class="input" name="hp" required="required" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="휴대폰 번호"></td>
         </tr>
         <tr>
             <td>주소</td>
         </tr>
         <tr>
-            <td><input type="text" name="addr" class="input" required></td>
+            <td><input type="text" name="addr" class="input" required="required"></td>
         </tr>
         <tr>
             <td>성별</td>
         </tr>
         <tr>
             <td>
-                <input type="radio" name="gender" value="0">남자
-                <input type="radio" name="gender" value="1">여자
+                <input type="radio" name="gender" required=required value="0">남자
+                <input type="radio" name="gender" required="required" value="1">여자
             </td>
         </tr>
         <tr>
-            <td><input type="submit" value="가입하기" class="btn"></td>
+            <td><input type="submit" value="가입하기" class="btn" required="required"></td>
         </tr>
         <tr>
-            <td><input type="button" value="이전" class="rollback" onclick="history.back()"></td>
+            <td><input type="button" value="이전" class="rollback" required="required" onclick="history.back()"></td>
         </tr>
 
     </table>

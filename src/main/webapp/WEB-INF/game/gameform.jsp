@@ -6,125 +6,146 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Insert title here</title>
+    <title>게임 만들기</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=East+Sea+Dokdo&family=Jua&family=Gaegu&family=Gamja+Flower&family=Pacifico&family=Single+Day&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=East+Sea+Dokdo&family=Jua&family=Gaegu&family=Gamja+Flower&family=Pacifico&family=Single+Day&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <style>
         body * {
             font-family: 'Jua';
         }
-        .smbtn{
-            width: 262px;
-            height: 32px;
-            font-size: 15px;
-            border: 0px;
-            border-radius: 15px;
-            outline: none;
-            padding-left: 10px;
-            background-color: rgb(61,135,255);
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .smbtn:active{
-            width: 262px;
-            height: 32px;
-            font-size: 15px;
-            border-radius: 15px;
-            outline: none;
-            padding-left: 10px;
-            background-color: rgb(61,135,255);
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
         }
         table {
-            width : 100%;
-            height: auto;
-            margin: auto;
+            width: 100%;
         }
-        input {
-            border:0px;
-            border-radius: 15px;
-            outline: none;
-            background-color: rgb(233,233,233);
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            border-radius: 10px 0 0 10px;
+        }
+        td {
+            background-color: #f8f9fa;
+        }
+        input[type="text"], input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .smbtn {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .smbtn:active {
+            background-color: #0056b3;
+        }
+        .img-preview {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+            border: 2px dashed #ddd;
+            border-radius: 10px;
+            padding: 10px;
         }
     </style>
     <script>
         $(function (){
             $("#showimg1").click(function (){
-                $("#photo1").trigger('click')
-            })
+                $("#photo1").trigger('click');
+            });
             $("#showimg2").click(function (){
-                $("#photo2").trigger('click')
-            })
+                $("#photo2").trigger('click');
+            });
             $("#photo1").change(function(){
-                let reg=/(.*?)\/(jpg|jpeg|png|gif)$/;
-                let f=$(this)[0].files[0]
-                if(!f.type.match(reg)){
-                    alert("이미지파일만 가능합니다")
+                let reg = /(.*?)\/(jpg|jpeg|png|gif)$/;
+                let f = $(this)[0].files[0];
+                if (!f.type.match(reg)) {
+                    alert("이미지파일만 가능합니다");
                     return;
                 }
-                if(f){
-                    let reader=new FileReader();
-                    reader.onload=function(e){
-                        $("#showimg1").attr("src",e.target.result);
+                if (f) {
+                    let reader = new FileReader();
+                    reader.onload = function(e){
+                        $("#showimg1").attr("src", e.target.result);
                     }
-                    reader.readAsDataURL($(this)[0].files[0]);
+                    reader.readAsDataURL(f);
                 }
-            })
+            });
             $("#photo2").change(function(){
-                let reg=/(.*?)\/(jpg|jpeg|png|gif)$/;
-                let f=$(this)[0].files[0]
-                if(!f.type.match(reg)){
-                    alert("이미지파일만 가능합니다")
+                let reg = /(.*?)\/(jpg|jpeg|png|gif)$/;
+                let f = $(this)[0].files[0];
+                if (!f.type.match(reg)) {
+                    alert("이미지파일만 가능합니다");
                     return;
                 }
-                if(f){
-                    let reader=new FileReader();
-                    reader.onload=function(e){
-                        $("#showimg2").attr("src",e.target.result);
+                if (f) {
+                    let reader = new FileReader();
+                    reader.onload = function(e){
+                        $("#showimg2").attr("src", e.target.result);
                     }
-                    reader.readAsDataURL($(this)[0].files[0]);
+                    reader.readAsDataURL(f);
                 }
-            })
-        })
+            });
+        });
     </script>
 </head>
 <body>
-<form action="/gameforminsert" method="post" enctype="multipart/form-data">
-    <input type="hidden" value="${loginid}" name="id">
+<div class="container">
+    <form action="/gameforminsert" method="post" enctype="multipart/form-data">
+        <input type="hidden" value="${loginid}" name="id" required="required">
 
-    <table class="table">
-        <caption align="top" style="text-align: center ;margin-top: 70px"><h2>게임 만들기</h2></caption>
-        <tr>
-            <th style="width: 100px; align-content: center; text-align: center ">
-                제목
-            </th>
-            <td colspan="2" style="text-align: center">
-                <input type="text" name="subject" style="width: auto; height: 100%; font-size: 30px;" >
-            </td>
-        </tr>
-        <tr style="height: 300px;">
-            <th style="align-content: center; text-align: center">
-                사진
-            </th>
-            <td style="text-align: center">
-                <input type="file" name="photo1" id="photo1" hidden="hidden">
-                <label><img src="" id="showimg1" style="width: auto; height:250px"><br>
-                <input type="text" name="name1" style="font-size: 25px"></label>
-            </td>
-            <td style="text-align: center">
-                <input type="file" name="photo2" id="photo2" hidden="hidden">
-                <label><img src="" id="showimg2" style="width: 250px; height:250px"><br>
-                    <input type="text" name="name2" style="font-size: 25px"></label>
-            </td>
-        </tr>
+        <table class="table">
+            <caption align="top"><h2>게임 만들기</h2></caption>
             <tr>
-               <td colspan="3" style="text-align: center">
-                   <button type="submit" class="smbtn">제출하기</button>
-               </td>
+                <th>제목</th>
+                <td colspan="2"><input type="text" name="subject"></td>
             </tr>
-    </table>
-</form>
-
+            <tr>
+                <th>사진</th>
+                <td>
+                    <input type="file" name="photo1" id="photo1" hidden required="required">
+                    <label>
+                        <img style="width: 500px;height: 400px" src="/save/no1.png" id="showimg1" class="img-preview"><br>
+                        <input type="text" name="name1" placeholder="이름을 입력하세요" required="required">
+                    </label>
+                </td>
+                <td>
+                    <input type="file" name="photo2" id="photo2" hidden required="required">
+                    <label>
+                        <img style="width: 500px;height: 400px" src="/save/no1.png" id="showimg2" class="img-preview"><br>
+                        <input type="text" name="name2" placeholder="이름을 입력하세요" required="required">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><button type="submit" class="smbtn">제출하기</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
 </body>
 </html>

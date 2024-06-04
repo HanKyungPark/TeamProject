@@ -89,19 +89,17 @@
         }
 
         div.loginarea {
-            position: fixed;
-            right: 50px;
-            top: 100px;
+           text-align: center;
         }
 
         div.loginarea button {
             width: 100px;
         }
+
     </style>
     <c:set var="root" value="<%=request.getContextPath()%>"/>
     <script type="text/javascript">
         $(function () {
-
 
             $("#loginfrm").submit(function (e) {
                 //기본이벤트 무효화
@@ -125,6 +123,7 @@
                 });
             });
 
+
             //로그아웃 버튼
             $("#btnlogout").click(function () {
                 alert("logout");
@@ -139,6 +138,7 @@
                 });
             });
         });
+
     </script>
 </head>
 <body>
@@ -168,7 +168,7 @@
                     <table class="table table-bordered">
                         <caption align="top">
                             <label>
-                                <input type="checkbox" name="saveid"
+                                <input type="checkbox" name="saveid" required="required"
                                 ${sessionScope.saveid==null or sessionScope.saveid=='no'?"":"checked"}>&nbsp;아이디저장
                             </label>
                         </caption>
@@ -199,7 +199,8 @@
 </div>
 <div class="loginarea">
     <c:if test="${sessionScope.loginok==null}">
-        <button type="button" id="btnlogin" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myLoginModal">로그인</button>
+        <button type="button" id="btnlogin" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myLoginModal"
+        style="">로그인</button>
     </c:if>
     <c:if test="${sessionScope.loginok!=null}">
         <b style="font-size: 20px">

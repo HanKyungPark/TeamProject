@@ -29,6 +29,7 @@
             padding: 10px 10px;
             border-radius: 40px;
             background-color: #ffe4e1;
+            width: 250px;
 
 
         }
