@@ -23,4 +23,7 @@ public class UserService {
     }
 
     ;
+    public String selectName(String id){
+        return uInter.selectName(id);
+    };
 }

@@ -2,6 +2,7 @@ package controller.game;
 
 import data.dto.GameDto;
 import data.service.GameService;
+import data.service.UserService;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import naver.cloud.NcpObjectStorageService;
@@ -28,6 +29,7 @@ public class GameFormController {
 
     @Autowired
     private GameService gameService;
+
 
     @GetMapping("game/gameinsert")
     public String gamemove() {
@@ -60,11 +62,15 @@ public class GameFormController {
         gameService.insertGame(gameDto);
 //        gameService.insertphoto(gameDto);
         model.addAttribute(loginid);
+
         return "redirect:./";
 
 
     }
-
+    @GetMapping("usage/use")
+    public String use() {
+        return "usage/use";
+    }
 
 
 

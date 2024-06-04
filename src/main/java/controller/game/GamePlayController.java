@@ -1,10 +1,12 @@
 package controller.game;
 
 import data.dto.GameDto;
+
 import data.service.GameService;
+import data.service.ResultService;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +19,8 @@ import java.util.List;
 @AllArgsConstructor
 @Controller
 public class GamePlayController {
+    @NonNull
+    ResultService resultService;
     @NonNull
     GameService gameService;
     @GetMapping("/game/gameplay")
@@ -31,5 +35,6 @@ public class GamePlayController {
         model.addAttribute("result2", result2);
         return "game/gamedetail";
     }
+
 
 }
