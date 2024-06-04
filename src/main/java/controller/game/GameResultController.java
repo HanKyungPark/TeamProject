@@ -2,6 +2,8 @@ package controller.game;
 
 import data.dto.GameDto;
 
+import data.dto.ResultDto;
+import data.mapper.GameMapperInter;
 import data.service.GameService;
 import data.service.ResultService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,8 @@ public class GameResultController {
     GameService gameService;
     @Autowired
     ResultService resultService;
+    @Autowired
+    GameMapperInter gameMapperInter;
 
 
     public void insertResult(HttpSession session, Model model){
@@ -38,5 +42,15 @@ public class GameResultController {
             e.printStackTrace();
             return "Error";
         }
+    }
+    @GetMapping("/game/result")
+    public String getResults(HttpSession session, Model model) {
+        String subject=(String) session.getAttribute("subject");
+        List<GameDto> game=gameMapperInter.getupload(subject);
+        List<ResultDto> list= resultService.getResults(subject);
+        model.addAttribute("game", game);
+           model.addAttribute("list", list);
+
+        return "game/gameresult";
     }
 };

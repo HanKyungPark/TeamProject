@@ -14,5 +14,7 @@ public interface UserMapperInter {
     @Select("select count(*) from user where id=#{id} and passwd=#{passwd}")
     public int checkLogin(String id, String passwd);
 
+    @Select("select name from user where id=#{id}")
+    public String selectName(String id);
 
 }

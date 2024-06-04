@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.support.TransactionTemplate;
 
+import java.util.List;
+
 @Service
 public class ResultService {
     @Autowired
@@ -28,4 +30,8 @@ public class ResultService {
                 throw new RuntimeException("Failed to update result", e);
             }
         });
-    }}
+    }
+    public List<ResultDto> getResults(String subjcet) {
+        return resultInter.getResults(subjcet);
+    }
+}

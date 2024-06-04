@@ -5,25 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d651007-26f4-40f0-a215-d74af4f7b47e" name="Changes" comment="0603_19:00">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GameResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GameResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/TotalCountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/TotalCountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/result/resultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/result/resultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/user/UserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/UserFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/UserMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/UserMapperInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout1.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/usage/use.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GameResultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GameResultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/TotalCountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/TotalCountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/result/resultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/result/resultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/user/UserFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/user/UserFormController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameResultMapperInter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/UserMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/UserMapperInter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/GameService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,7 @@
         <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -47,46 +59,57 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gawonson"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gawonson&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HanKyungPark/TeamProject.git",
-    "accountId": "591084c4-a0fa-4f35-9ed3-b292404bc803"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HanKyungPark/TeamProject.git&quot;,
+    &quot;accountId&quot;: &quot;591084c4-a0fa-4f35-9ed3-b292404bc803&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2hOPume2BWgCxZHJHSvEdgm3QaV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.TeamProjectApplication.executor": "Run",
-    "git-widget-placeholder": "GaWon",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.TeamProjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;GaWon&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/save" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TeamProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TeamProject" />
@@ -128,9 +151,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717462376288</updated>
-      <workItem from="1717462377881" duration="801000" />
+      <workItem from="1717462377881" duration="2235000" />
+      <workItem from="1717467324857" duration="13454000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0603_19:00">
+      <option name="closed" value="true" />
+      <created>1717466141391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717466141391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

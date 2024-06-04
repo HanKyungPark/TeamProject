@@ -32,5 +32,8 @@ public class GameService {
     public List<GameDto> getgame(String subject){
         return gameMapperInter.getgame(subject);
     };
+    public List<GameDto> getupload(String subjcet) {
+        return gameMapperInter.getupload(subjcet);
+    }
 
 }
