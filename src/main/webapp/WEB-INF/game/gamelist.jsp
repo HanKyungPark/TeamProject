@@ -27,18 +27,19 @@
         <C:forEach var="ele" items="${list}" varStatus="a">
         <td style="text-align: center; width: 200px; height: 200px;">
             <a onclick="location.href='./game/gameplay?subject=${ele.subject}'" style="height: 20px;margin-top: 10px;"><b style="color: #3f63bf;text-decoration: underline">${ele.subject}</b></a><br>
-            <div class="abc" style="height: 160px; align-content: center">
-                <img src="${stpath}/${ele.photo1}" style="width: 100px;height: 100px">vs
-                <img src="${stpath}/${ele.photo2}" style="width: 100px;height: 100px">
+            <div class="abc" style="height: 160px; align-content: center;cursor: pointer">
+                <img src="${stpath}/${ele.photo1}" style="width: 100px;height: 100px;"
+                     onclick="location.href='./game/gameplay?subject=${ele.subject}'">vs
+                <img src="${stpath}/${ele.photo2}" style="width: 100px;height: 100px"
+                     onclick="location.href='./game/gameplay?subject=${ele.subject}'">
             </div>
 
-            <b style="height: 20px">ID:${ele.id}</b>
+            <b style="height: 20px">이름:${ele.id}</b>
 
         </td>
         <c:if test="${(a.count+1)%3==0}">
     </tr><tr>
     </c:if>
-
     </C:forEach>
 </tr>
 </table>

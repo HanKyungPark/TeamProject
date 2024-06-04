@@ -61,8 +61,9 @@ public class GameFormController {
 //        gameService.insertphoto(gameDto);
         model.addAttribute(loginid);
         return "redirect:./";
-    }
 
+
+    }
     @GetMapping("usage/use")
     public String use() {
         return "usage/use";
