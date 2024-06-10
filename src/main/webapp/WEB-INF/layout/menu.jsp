@@ -167,7 +167,7 @@
                     <table class="table table-bordered">
                         <caption align="top">
                             <label>
-                                <input type="checkbox" name="saveid" required="required"
+                                <input type="checkbox" name="saveid"
                                 ${sessionScope.saveid==null or sessionScope.saveid=='no'?"":"checked"}>&nbsp;아이디저장
                             </label>
                         </caption>

@@ -21,7 +21,7 @@ public class UserLoginController {
                                     @RequestParam String id,
                                     @RequestParam String passwd,
                                     HttpSession session
-                                    ){
+    ){
         Map<String,String> map = new HashMap<>();
         boolean loginStatus= userService.isLoginCheck(id,passwd);
         if(loginStatus){

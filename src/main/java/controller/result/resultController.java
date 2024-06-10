@@ -18,6 +18,8 @@ public class resultController {
     @GetMapping("/resultinsert")
     public String resultInsert(@ModelAttribute ResultDto resultDto , Model model,
                                HttpSession session) {
+
+
         return "/";
     }
 }

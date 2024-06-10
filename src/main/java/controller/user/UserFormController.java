@@ -28,7 +28,6 @@ public class UserFormController {
     private UserService userService;
 
 
-
     @GetMapping("user/userinsert")
     public String isertform() {
         return "user/user";
@@ -43,4 +42,3 @@ public class UserFormController {
     };
 
 }
-

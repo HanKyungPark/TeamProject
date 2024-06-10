@@ -9,7 +9,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
     <title>Title</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
@@ -18,11 +22,12 @@
 
                 updateResult('${subject}', 'result1');
                 alert("[${subject}]에대한 투표가 완료되었습니다.")
-
+                $(".hide").slideDown();
             });
             $('#p2').click(function() {
                 updateResult('${subject}', 'result2');
                 alert("[${subject}]에대한 투표가 완료되었습니다.")
+                $(".hide").slideDown();
             });
 
             function updateResult(subject, column) {
@@ -60,19 +65,17 @@
                     <figcaption style="margin-top: 30px"><h4>${ele.name2}</h4></figcaption>
                 </figure>
             </td>
-
         </c:forEach>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align: center">
+            <button class="btn btn-secondary" type="button" onclick="location.href='../game/result?subject=${sessionScope.get("subject")}'" >결과보기</button>
+        </td>
     </tr>
 </table>
 
-<div class="hide">
-    <table>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-</div>
+
+
 
 </body>
 </html>
