@@ -18,7 +18,7 @@ public interface GameMapperInter {
     @Select("select count(*) from upload")
     public int TotalCount();
 
-    @Select("select * from upload")
+    @Select("select * from upload order by subject")
     public List<GameDto> getAllgames();
 
     @Select("select * from upload where subject=#{subject}")
@@ -28,5 +28,9 @@ public interface GameMapperInter {
     @Select("select * from upload where subject=#{subjcet}")
     public List<GameDto> getupload(String subjcet);
 
+    @Select("select id from upload ")
+    public List<String> getAllids();
 
+    @Select("select subject from upload where id=#{id}")
+    public List<String> getallsubjects (String id);
 }

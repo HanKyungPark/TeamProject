@@ -24,13 +24,9 @@
         }
 
         pre.info {
-            font-size: 16px;
-            border: 3px solid orange;
-            padding: 10px 10px;
-            border-radius: 40px;
-            background-color: #ffe4e1;
-
-
+            margin-left: 25px;
+            border: 1px dotted darkslategray;
+            padding: 10px;
         }
     </style>
 </head>
@@ -41,6 +37,7 @@
     <i class="bi bi-telephone-inbound"></i>&nbsp;010-1234-1234
     <i class="bi bi-controller"></i></i>&nbsp;누구나 참여 가능
     <i class="bi bi-emoji-kiss"></i></i>&nbsp;드루와잇!
+    <i class="bi bi-shop-window"></i>투표수 200이상 HOT!
 </pre>
 
 </body>

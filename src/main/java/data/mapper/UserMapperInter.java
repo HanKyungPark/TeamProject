@@ -17,4 +17,5 @@ public interface UserMapperInter {
     @Select("select name from user where id=#{id}")
     public String selectName(String id);
 
+
 }

@@ -70,6 +70,8 @@
     <tr>
         <td colspan="3" style="text-align: center">
             <button class="btn btn-secondary" type="button" onclick="location.href='../game/result?subject=${sessionScope.get("subject")}'" >결과보기</button>
+            <button class="btn btn-secondary" type="button" onclick="history.back()" >이전으로</button>
+
         </td>
     </tr>
 </table>

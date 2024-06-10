@@ -84,7 +84,7 @@
     </style>
 </head>
 <body>
-<form action="/user/insert">
+<form action="/user/insert" method="post">
 
     <table>
         <tr>
@@ -94,7 +94,7 @@
             <td>아이디</td>
         </tr>
         <tr>
-            <td><input type="text" class="input" name="id" required="required"></td>
+            <td><input type="text" class="input" name="id"   required="required"></td>
         </tr>
         <tr>
             <td>비밀번호</td>

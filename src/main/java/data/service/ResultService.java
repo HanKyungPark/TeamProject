@@ -34,4 +34,7 @@ public class ResultService {
     public List<ResultDto> getResults(String subjcet) {
         return resultInter.getResults(subjcet);
     }
+    public List<Integer> getResultTotal() {
+        return resultInter.getResultsBySubject();
+    }
 }

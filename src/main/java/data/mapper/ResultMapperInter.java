@@ -24,4 +24,8 @@ public interface ResultMapperInter {
     @Select("select * from result where subject=#{subject}")
     public List<ResultDto> getResults(String subject);
 
+    @Select("select result1 + result2 from result order by subject")
+    public List<Integer> getResultsBySubject(
+    );
+
 }

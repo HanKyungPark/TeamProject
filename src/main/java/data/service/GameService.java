@@ -35,5 +35,10 @@ public class GameService {
     public List<GameDto> getupload(String subjcet) {
         return gameMapperInter.getupload(subjcet);
     }
-
+    public List<String> getallid(){
+        return gameMapperInter.getAllids();
+    }
+    public List<String>  getallsubjects(String id){
+        return gameMapperInter.getallsubjects(id);
+    }
 }

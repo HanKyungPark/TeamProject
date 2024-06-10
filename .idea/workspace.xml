@@ -5,36 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d651007-26f4-40f0-a215-d74af4f7b47e" name="Changes" comment="0603_19:00">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GameFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GamePlayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/GameResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/GameResultController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/TotalCountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/TotalCountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/result/resultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/result/resultController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/user/UserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/UserFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/UserMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/UserMapperInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gameform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GameFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GamePlayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/GameResultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/GameResultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/user.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/game/TotalCountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/TotalCountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/result/resultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/result/resultController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/user/UserFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/user/UserFormController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameResultMapperInter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/UserMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/UserMapperInter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/GameService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +60,10 @@
     &quot;accountId&quot;: &quot;591084c4-a0fa-4f35-9ed3-b292404bc803&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -152,7 +141,12 @@
       <option name="presentableId" value="Default" />
       <updated>1717462376288</updated>
       <workItem from="1717462377881" duration="2235000" />
-      <workItem from="1717467324857" duration="13454000" />
+      <workItem from="1717467324857" duration="14813000" />
+      <workItem from="1717546496873" duration="20429000" />
+      <workItem from="1717669117702" duration="2505000" />
+      <workItem from="1717675377684" duration="227000" />
+      <workItem from="1717980173511" duration="42000" />
+      <workItem from="1717980385662" duration="9000" />
     </task>
     <task id="LOCAL-00003" summary="0603_19:00">
       <option name="closed" value="true" />
@@ -162,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717466141391</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0603_19:00">
+      <option name="closed" value="true" />
+      <created>1717483712728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717483712728</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,5 +173,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0603_19:00" />
     <option name="LAST_COMMIT_MESSAGE" value="0603_19:00" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

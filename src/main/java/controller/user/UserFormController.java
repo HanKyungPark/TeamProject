@@ -12,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.multipart.MultipartFile;
 
 import org.springframework.web.bind.annotation.RequestParam;
@@ -32,13 +33,11 @@ public class UserFormController {
     public String isertform() {
         return "user/user";
     }
-    @GetMapping("/user/insert")
+
+    @PostMapping("/user/insert")
     public String userInsert(@ModelAttribute UserDto userDto) {
-
-
         userService.insertUser(userDto);
-
-        return "game/gamelist";
+        return "redirect:../";
     };
 
 }
