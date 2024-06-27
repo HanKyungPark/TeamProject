@@ -7,23 +7,7 @@
     <list default="true" id="6d651007-26f4-40f0-a215-d74af4f7b47e" name="Changes" comment="0603_19:00">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a09a2343-265b-4ee4-a9ac-dda1d82ff490.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/game/TotalCountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/game/TotalCountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/user/UserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/UserFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/GameMapperInter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/ResultMapperInter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/mapper/UserMapperInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/mapper/UserMapperInter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/service/ResultService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamedetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/game/gamelist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/game/TotalCountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/game/TotalCountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/user/UserFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/user/UserFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/GameMapperInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/mapper/ResultMapperInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/GameService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/service/ResultService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/teamproject/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/teamproject/HomeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +75,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -147,6 +134,15 @@
       <workItem from="1717675377684" duration="227000" />
       <workItem from="1717980173511" duration="42000" />
       <workItem from="1717980385662" duration="9000" />
+      <workItem from="1717980430757" duration="11820000" />
+      <workItem from="1718021973176" duration="1005000" />
+      <workItem from="1718073822248" duration="5684000" />
+      <workItem from="1718280646828" duration="317000" />
+      <workItem from="1718343200736" duration="614000" />
+      <workItem from="1718361617099" duration="12000" />
+      <workItem from="1718869080906" duration="1229000" />
+      <workItem from="1718885627338" duration="1285000" />
+      <workItem from="1719466318295" duration="1296000" />
     </task>
     <task id="LOCAL-00003" summary="0603_19:00">
       <option name="closed" value="true" />
@@ -164,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717483712728</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0603_19:00">
+      <option name="closed" value="true" />
+      <created>1717981177562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717981177562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
